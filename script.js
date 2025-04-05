@@ -125,10 +125,9 @@ function carregarPergunta() {
     // Adiciona um evento de clique no botão
     botao.onclick = function () {
       // Se a resposta for correta (resposta.correto === true), incrementa o número de acertos
-      if (resposta.correto) {
-        acertos = acertos + 1;
-        acertos++; // Incrementa o contador de acertos
-      }
+     if (resposta.correto) {
+  acertos++;
+}
 
       // Avança para a próxima pergunta
       indiceAtual++;
